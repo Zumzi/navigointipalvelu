@@ -5,4 +5,13 @@ Jarmo Seppälä, Teemu Suvinen ja Joni Oksanen
 ##Johdanto 
 
 Tämän projektin tarkoituksena on kehittää Metropolian Leppävaaran toimipisteelle sisäpaikannusjärjestelmä, jonka avulla 
-opiskelijat pystyvät paikantamaan ja navigoimaan mm. vapaiden luokkien luokse 
+opiskelijat pystyvät paikantamaan ja navigoimaan mm. vapaiden luokkien luokse. Sisäpaikannusjärjestelmää käytetään älylaitteissa
+(puhelimet, tabletit). Sisäpaikannusjärjestelmää tarvitaan, koska suunnistaminen oppilaitoksessa on haastavaa varsinkin uusille 
+opiskelijoille, mutta myös vanhoillekkin. 
+
+Sisäpaikannusjärjestelmä hyödyntää ensisijaisesti älylaitteiden kameroita, Wi-fiä ja GPS:ää. Älylaitteen ruudulla näkyy mm. nuolia
+ja metrilaskureita, jotka kertovat kohteen sijainnin ja ohjeistavat käyttäjää reaaliajassa. Järjestelmää on nopeampi käyttää kuin
+ihana.metropolian palveluita, mm. tyhjiä luokkia pystyy skannamaan älylaitteen kameralla joka kertoo värikoodilla onko luokka
+varattu vai ei. 
+
+
