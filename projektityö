@@ -4,30 +4,34 @@ Jarmo Seppälä, Teemu Suvinen ja Joni Oksanen
 
 ##Johdanto 
 
-Tämän projektin tarkoituksena on kehittää Metropolian Leppävaaran toimipisteelle sisäpaikannusjärjestelmä, jonka avulla 
-opiskelijat pystyvät paikantamaan ja navigoimaan mm. vapaiden luokkien luokse. Sisäpaikannusjärjestelmää käytetään älylaitteissa
+Tämän projektin tarkoituksena on kehittää Metropolian Leppävaaran toimipisteelle navigointipalvelu, jonka avulla 
+opiskelijat pystyvät paikantamaan ja navigoimaan mm. vapaiden luokkien luokse. navigointipalvelua käytetään älylaitteissa
 (puhelimet, tabletit). Sisäpaikannusjärjestelmää tarvitaan, koska suunnistaminen oppilaitoksessa on haastavaa varsinkin uusille 
 opiskelijoille, mutta myös vanhoillekkin. 
 
-Sisäpaikannusjärjestelmä hyödyntää ensisijaisesti älylaitteiden kameroita, Wi-fiä ja GPS:ää. Älylaitteen ruudulla näkyy mm. nuolia
-ja metrilaskureita, jotka kertovat kohteen sijainnin ja ohjeistavat käyttäjää reaaliajassa. Järjestelmää on nopeampi käyttää kuin
-ihana.metropolian palveluita, mm. tyhjiä luokkia pystyy skannamaan älylaitteen kameralla joka kertoo värikoodilla onko luokka
-varattu vai ei. 
-
+Navigointipalvelu hyödyntää ensisijaisesti älylaitteiden kameroita, Wi-fiä, gyroskooppia ja GPS:ää. Älylaitteen ruudulla näkyy mm. nuolia
+ja metrilaskureita, jotka kertovat kohteen sijainnin ja ohjeistavat käyttäjää reaaliajassa. Gyroskoopin hyödyntäminen mahdollistaa sen,
+että sovellus tietää missä asennossa päätelaite on - koska on esim. kuljettava ylös tai alas portaita. Järjestelmää pystytään 
+hyödyntämään jo olemassaolevan ihana.metropolian kanssa; klikkaamalla lukujärjestyksessä olevaa kurssia Track-O-Polia-sovellus käynnistyy
+ja ohjeistus alkaa. 
 
 ##Käyttötapaukset
+#Käyttäjäpainoitteiset tapaukset:
+- opastus haluttuun luokkaan älylaitteella (puhelin, tabletti)
+- selvitys vapaiden luokkien lukumäärästä
+- koulun henkilökunnan paikannus luokkakohtaisesti
+- ohjelmistokohtaisen luokan / tietokoneen haku (esim. mistä löytyy 3DS Max, mistä Adobe InDesign?)
 
-- Opastus haluttuun luokkaan älylaitteella (puhelin, tabletti).
-- Vapaiden luokkien selvittäminen.
-- Kouluhenkilökunnan paikantaminen luokkakohtaisesti.
-- Ohjelmistokohtainen luokan / tietokoneen haku (esim. 3D ohjelmat)
+#Kehittäjäpainoitteiset tapaukset:
+- käyttäjien antamien palautteiden käsittely
+- sovelluksen kehittäminen ja bugfixing
+- järjestelmän ylläpito / käytön tuki
 
-#Käyttäjäryhmien määrittely
-
-- Opiskelijat / vierailijat
+###Käyttäjäryhmien määrittely
+- Opiskelijat
+- Opettajat
+- Vierailijat
 - Kehittäjät / ylläpitäjät
-- Järjestelmän ylläpito / käytön tuki
-- Palvelun kehittäminen
 
 
 
